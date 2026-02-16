@@ -1,7 +1,7 @@
 # Loan Eligibility Checker
 
 # Taking user inputs
-'''age = int(input("Enter your age: "))
+age = int(input("Enter your age: "))
 salary = float(input("Enter your monthly salary: "))
 credit_score = int(input("Enter your credit score: "))
 existing_loans = input("Do you have existing loans? (Yes/No): ").strip().lower()
@@ -71,7 +71,7 @@ else:
         print(f"5% Senior Citizen Discount: ₹{discount:.2f}")
 
     # Final Bill
-    print(f"Final Electricity Bill: ₹{bill:.2f}")'''
+    print(f"Final Electricity Bill: ₹{bill:.2f}")
 amount = float(input("Enter total purchase amount: "))
 member = input("Membership type (Gold/Silver/None): ").lower()
 festival = input("Festival season? (Yes/No): ").lower()
@@ -94,6 +94,7 @@ else:
     # Extra 5% if purchase > 10000
     if original > 10000:
         amount -= amount * 0.05
+
 
     print("Final Payable Amount:", round(amount, 2))
 

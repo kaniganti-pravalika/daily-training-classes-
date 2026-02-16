@@ -1,4 +1,4 @@
-'''a=int(input("enter the number :"))
+a=int(input("enter the number :"))
 
 for i in range(1,11):
     print(a,"*",i,"=",a*i)
@@ -29,7 +29,7 @@ i=8
 for i in range(100):
     if i%8==0:
         print(i,end=" ")
-        '''
+        
 i=8
 count=0
 for i in range(100):
@@ -40,7 +40,7 @@ print(count)
 
 
 
-  a=int(input("enter the value :" ))
+a=int(input("enter the value :" ))
 if(a==1):
     for i in range(100):
         print(i+1,end=" ")
@@ -51,7 +51,7 @@ elif(a==2):
             continue
     print(i,end=" ")
     i=i+1
-'''elif(a==3):
+elif(a==3):
     i=0
     while(i%2==0):
         if i==66:
@@ -67,6 +67,6 @@ elif(a==4):
                 continue
             print(i,end=" ")
 else:
-    print("invalid input")'''
+    print("invalid input")
   
         

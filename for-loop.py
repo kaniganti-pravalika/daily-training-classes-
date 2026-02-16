@@ -1,4 +1,4 @@
-'''for i in range(65, 69):
+for i in range(65, 69):
     for j in range(65, 69):
         print(chr(i) , end="")
     print()
@@ -60,7 +60,7 @@ for i in range(2,num):
         break
     else:
         print("Prime number")
-        break'''
+        break
 num=int(input("Enter number: "))
 count=0
 sum=0
