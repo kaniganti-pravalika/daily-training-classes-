@@ -1,5 +1,5 @@
 #function  with no parameters and no return type
-'''def greet():
+def greet():
     print("Morning")
 greet()
 def add(a,b):
@@ -72,10 +72,11 @@ def kolkata():
     hyd()
 hyd()
 #recusssion
+'''
 def  clg_name():
     print("vaagdevi",end="")
     clg_name()
-clg_name()
+clg_name()'''
 # positional arguments
 def grocery(name,price):
     print("item name is",name,"its price is",price)
@@ -99,7 +100,7 @@ print("the area of the circle is:",result)
 def addnos(*a):
     return sum(a)
 print(addnos(10,20))
-print(addnos(10,20,30)) '''
+print(addnos(10,20,30))
 # variable length keyword arguments
 def largest_string(*strings):
     if not strings:
