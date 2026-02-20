@@ -1,5 +1,5 @@
 #creating a list 
-''''from email.mime import text
+from email.mime import text
 
 
 a=[]
@@ -60,7 +60,4 @@ print(num)
 #extend
 a=[1,2,3]
 a.extend([4,5,6])
-print(a)'''
-#
-
-
+print(a)
